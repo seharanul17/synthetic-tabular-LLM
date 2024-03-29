@@ -20,9 +20,10 @@ This code was developed using Python 3.8 on Ubuntu 18.04.
    ```
 
 
-2. **Data Preparation**: 
-     -  We provide preprocessed data in `data/realdata/Sick`, which downloaded from the [download link](https://www.openml.org/search?type=data&sort=runs&id=38&status=active). 
-     
+2. **Data Preparation**:
+- The Sick dataset is available for download at the following [download link](https://www.openml.org/search?type=data&sort=runs&id=38&status=active).  
+- The preprocessed version of the Sick dataset can be found in the directory `data/realdata/Sick`.
+
 ### Usage
 
 1. (Optional) **Configure OpenAI API Key**: Enter your OpenAI API key in `codes/SyntheticDataGeneration/generate_samples_Sick.py`:
