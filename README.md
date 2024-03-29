@@ -7,7 +7,7 @@ This is the implementation of "ST-Prompt: Group-wise Prompting for Synthetic Tab
 
 ## Environment Setup
 
-This code was developed using Python 3.8 on an Ubuntu 18.04 system.
+This code was developed using Python 3.8 on Ubuntu 18.04.
 
 ## Quick start
 
@@ -20,36 +20,31 @@ This code was developed using Python 3.8 on an Ubuntu 18.04 system.
    ```
 
 
-2. **Data Preparation**:
-   
-   - **Obtain the dataset**: 
-     - Sick: 링크 
-     - ... TODO
-   
-   - **Organize the dataset**: Move the downloaded dataset to the following directory structure:
-     ```
-     Sick: data/realdata/Sick/dataset_38_sick.arff
-     ```
-   
-   - **Run preprocessing**: Navigate to the preprocessing code directory and execute the preprocessing script:
-     ```bash
-     cd codes/DataProcessing/
-     python DataSplit_Sick.py
-     다른데이터셋 TODO
-     cd ..
-     ```
-   
-### How to use
+2. **Data Preparation**: 
+     -  We provide preprocessed data in `data/realdata/Sick`, which downloaded from the [download link](https://www.openml.org/search?type=data&sort=runs&id=38&status=active). 
+     
+### Usage
 
-1. Your OpenAI API Key를 입력하세요.
+1. (Optional) **Configure OpenAI API Key**: Enter your OpenAI API key in `codes/SyntheticDataGeneration/generate_samples_Sick.py`:
 
-2. **Generating synthetic dataset with ST-Prompt**:
-   
-   To generate synthetic datasets, execute the following command:
+   ```python
+   (line 13) openai_key = "Your-OpenAI-Key"
    ```
-   TODO
-   cd 
-   ```
-3. **Training and evaluating downstream task models**:
 
-   TODO
+2. (Optional) **Generate Synthetic Datasets with ST-Prompt**: 
+
+   To generate synthetic datasets using ST-Prompt, run the following command:
+
+   ```bash
+   cd SyntheticDataGeneration
+   python generate_samples_Sick.py
+   cd ..
+   ```
+
+3. **Train and Evaluate Downstream Task Models**:
+   To evaluate the quality of the synthetic data, use the following command:
+
+   ```bash
+   cd DownstreamTasks
+   python Classification.py    
+   ```
