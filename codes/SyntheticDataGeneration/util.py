@@ -1,14 +1,5 @@
-import os
-from sklearn import datasets
-import openai
-import os
-import IPython
-from langchain.llms import OpenAI
-from dotenv import load_dotenv
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-from tqdm.auto import tqdm
 from io import StringIO
 
 

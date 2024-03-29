@@ -1,7 +1,6 @@
 import os
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 from tqdm.auto import tqdm
 from tabulate import tabulate
 import warnings
@@ -11,9 +10,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, cohen_kappa
 from sklearn.metrics import accuracy_score ,balanced_accuracy_score,  f1_score, precision_score, recall_score, roc_auc_score, confusion_matrix
 
 from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier,RandomForestRegressor, AdaBoostRegressor,GradientBoostingClassifier,GradientBoostingRegressor
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.linear_model import LinearRegression
+from sklearn.ensemble import GradientBoostingClassifier
 
 from xgboost import XGBClassifier
 from catboost import CatBoostClassifier
