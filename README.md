@@ -1,8 +1,8 @@
-# Paper ID: 8608 - ST-Prompt: Group-wise Prompting for Synthetic Tabular Data Generation using Large Language Models
+# Group-wise Prompting for Synthetic Tabular Data Generation using Large Language Models
 
 ## Introduction
 
-This is the implementation of "ST-Prompt: Group-wise Prompting for Synthetic Tabular Data Generation using Large Language Models."
+This is the implementation of "Group-wise Prompting for Synthetic Tabular Data Generation using Large Language Models."
 
 
 ## Environment Setup
@@ -32,9 +32,9 @@ This code was developed using Python 3.8 on Ubuntu 18.04.
    (line 13) openai_key = "Your-OpenAI-Key"
    ```
 
-2. (Optional) **Generate Synthetic Datasets with ST-Prompt**: 
+2. (Optional) **Generate Synthetic Datasets**: 
 
-   To generate synthetic datasets using ST-Prompt, run the following command:
+   To generate synthetic datasets using our method, run the following command:
 
    ```bash
    cd SyntheticDataGeneration
@@ -49,3 +49,16 @@ This code was developed using Python 3.8 on Ubuntu 18.04.
    cd DownstreamTasks
    python Classification.py    
    ```
+
+
+## Citation
+
+If you find this work or code is helpful in your research, please cite:
+```
+@article{kim2024group,
+  title={Group-wise Prompting for Synthetic Tabular Data Generation using Large Language Models},
+  author={Kim, Jinhee and Kim, Taesung and Choo, Jaegul},
+  journal={arXiv preprint arXiv:2404.12404},
+  year={2024}
+}
+```
