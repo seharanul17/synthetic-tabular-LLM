@@ -1,8 +1,8 @@
-# Group-wise Prompting for Synthetic Tabular Data Generation using Large Language Models
+# Exploring Prompting Methods for Mitigating Class Imbalance through Synthetic Data Generation with Large Language Models
 
 ## Introduction
 
-This is the implementation of "Group-wise Prompting for Synthetic Tabular Data Generation using Large Language Models."
+This is the implementation of "Exploring Prompting Methods for Mitigating Class Imbalance through Synthetic Data Generation with Large Language Models."
 
 
 ## Environment Setup
@@ -56,7 +56,7 @@ This code was developed using Python 3.8 on Ubuntu 18.04.
 If you find this work or code is helpful in your research, please cite:
 ```
 @article{kim2024group,
-  title={Group-wise Prompting for Synthetic Tabular Data Generation using Large Language Models},
+  title={Exploring Prompting Methods for Mitigating Class Imbalance through Synthetic Data Generation with Large Language Models},
   author={Kim, Jinhee and Kim, Taesung and Choo, Jaegul},
   journal={arXiv preprint arXiv:2404.12404},
   year={2024}
