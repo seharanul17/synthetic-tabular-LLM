@@ -55,7 +55,7 @@ This code was developed using Python 3.8 on Ubuntu 18.04.
 
 If you find this work or code is helpful in your research, please cite:
 ```
-@article{kim2024group,
+@article{kim2024exploring,
   title={Exploring Prompting Methods for Mitigating Class Imbalance through Synthetic Data Generation with Large Language Models},
   author={Kim, Jinhee and Kim, Taesung and Choo, Jaegul},
   journal={arXiv preprint arXiv:2404.12404},
