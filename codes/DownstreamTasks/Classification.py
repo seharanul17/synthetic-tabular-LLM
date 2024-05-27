@@ -56,7 +56,6 @@ def compute_metric(label, pred, pred_proba=None, n_class=-1, regression=False):
         else:
             raise
 
-#     metrics.plot_roc_curve(eec, X_test, y_test) 
     metric = {key:[value] for key, value in metric.items()}
     return pd.DataFrame.from_dict(metric)
 
@@ -109,7 +108,7 @@ def categorical_variable_encode(configs, X_train, y_train, X_test, y_test, real_
     
     if configs['data'] == 'income':
         target_encode = True
-        cat_idx= [1,3,5,6,7,8,9,13] #configs['cat_idx'] # https://github.com/kathrinse/TabSurvey/blob/main/config/adult.yml
+        cat_idx= [1,3,5,6,7,8,9,13] 
     elif configs['data'] == 'HELOC':
         target_encode = True # ['Bad', 'Good']
         cat_idx = [] # https://github.com/kathrinse/TabSurvey/blob/main/config/heloc.yml
@@ -127,11 +126,9 @@ def categorical_variable_encode(configs, X_train, y_train, X_test, y_test, real_
     if target_encode:
         le = LabelEncoder()
         le.fit(org_y)
-        # fit_transform -> fit (train, test 모두 적용해야함)
         y_train = le.transform(y_train)
         y_test = le.transform(y_test)
         
-        # Setting this if classification task
         num_classes = len(le.classes_)
 
     # Preprocess data
@@ -319,7 +316,7 @@ for sM in ['Sick_STPromptNorg']:
         'lr_max_iter':ML_PARAMS[DATA_NAME]['lr_max_iter'],
         'dt_max_depth':ML_PARAMS[DATA_NAME]['dt_max_depth'],
         'rf_max_depth':ML_PARAMS[DATA_NAME]['rf_max_depth'],
-        'rf_n_estimators':ML_PARAMS[DATA_NAME]['rf_n_estimators'], # 논문과일치여부확인
+        'rf_n_estimators':ML_PARAMS[DATA_NAME]['rf_n_estimators'],
 
         # xgboost
         'xg_max_depth':4,
