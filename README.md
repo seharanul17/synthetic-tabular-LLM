@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the implementation of "Exploring Prompting Methods for Mitigating Class Imbalance through Synthetic Data Generation with Large Language Models."
+This is the official code of "Exploring Prompting Methods for Mitigating Class Imbalance through Synthetic Data Generation with Large Language Models."
 
 
 ## Environment Setup
