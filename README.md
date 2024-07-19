@@ -5,6 +5,8 @@
  [<ins>__[Project page]__</ins>](https://seharanul17.github.io/project-synthetic-tabular-llm/ )
 
 
+<img src = "table_3.png" width="50%" height="50%">
+
 ## Introduction
 
 This is the official code of "Exploring Prompting Methods for Mitigating Class Imbalance through Synthetic Data Generation with Large Language Models."
