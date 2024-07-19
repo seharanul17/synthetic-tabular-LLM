@@ -2,7 +2,7 @@
 
 [<ins>__[Paper]__</ins>](https://arxiv.org/abs/2404.12404) &nbsp; 
 &nbsp; 
- [<ins>__[Project page]__</ins>](https://ts-kim.github.io/KeyBot/)
+ [<ins>__[Project page]__</ins>](https://seharanul17.github.io/project-synthetic-tabular-llm/ )
 
 
 ## Introduction
