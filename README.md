@@ -1,5 +1,10 @@
 # Exploring Prompting Methods for Mitigating Class Imbalance through Synthetic Data Generation with Large Language Models
 
+[<ins>__[Paper]__</ins>](https://arxiv.org/abs/2404.12404) &nbsp; 
+&nbsp; 
+ [<ins>__[Project page]__</ins>](https://ts-kim.github.io/KeyBot/)
+
+
 ## Introduction
 
 This is the official code of "Exploring Prompting Methods for Mitigating Class Imbalance through Synthetic Data Generation with Large Language Models."
