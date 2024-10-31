@@ -1,4 +1,4 @@
-# Exploring Prompting Methods for Mitigating Class Imbalance through Synthetic Data Generation with Large Language Models
+# EPIC: Effective Prompting for Imbalanced-Class Data Synthesis in Tabular Data Classification via Large Language Models
 
 [<ins>__[Paper]__</ins>](https://arxiv.org/abs/2404.12404) &nbsp; 
 &nbsp; 
@@ -9,7 +9,7 @@
 
 ## Introduction
 
-This is the official code of "Exploring Prompting Methods for Mitigating Class Imbalance through Synthetic Data Generation with Large Language Models."
+This is the official code of "EPIC: Effective Prompting for Imbalanced-Class Data Synthesis in Tabular Data Classification via Large Language Models."
 
 
 ## Environment Setup
