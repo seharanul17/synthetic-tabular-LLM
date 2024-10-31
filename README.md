@@ -3,7 +3,9 @@
 &nbsp; 
  [<ins>__[Project page]__</ins>](https://seharanul17.github.io/project-synthetic-tabular-llm/ )
 
+<img src = "fig_1_complete.jpg" width="50%" height="50%">
 
+## EPIC prompt example
 <img src = "table_3.png" width="50%" height="50%">
 
 ## Introduction
