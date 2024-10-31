@@ -1,4 +1,4 @@
-# EPIC: Effective Prompting for Imbalanced-Class Data Synthesis in Tabular Data Classification via Large Language Models
+![image](https://github.com/user-attachments/assets/e0af6ae0-37c1-49fc-a62c-f880efcd2d26)# EPIC: Effective Prompting for Imbalanced-Class Data Synthesis in Tabular Data Classification via Large Language Models
 
 [<ins>__[Paper]__</ins>](https://arxiv.org/abs/2404.12404) &nbsp; 
 &nbsp; 
@@ -63,7 +63,7 @@ This code was developed using Python 3.8 on Ubuntu 18.04.
 If you find this work or code is helpful in your research, please cite:
 ```
 @misc{kim2024exploring,
-      title={Exploring Prompting Methods for Mitigating Class Imbalance through Synthetic Data Generation with Large Language Models}, 
+      title={EPIC: Effective Prompting for Imbalanced-Class Data Synthesis in Tabular Data Classification via Large Language Models}, 
       author={Jinhee Kim and Taesung Kim and Jaegul Choo},
       year={2024},
       eprint={2404.12404},
