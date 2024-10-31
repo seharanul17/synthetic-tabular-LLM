@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/e0af6ae0-37c1-49fc-a62c-f880efcd2d26)# EPIC: Effective Prompting for Imbalanced-Class Data Synthesis in Tabular Data Classification via Large Language Models
 
 [<ins>__[Paper]__</ins>](https://arxiv.org/abs/2404.12404) &nbsp; 
 &nbsp; 
