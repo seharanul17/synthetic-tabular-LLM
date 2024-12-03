@@ -63,12 +63,12 @@ This code was developed using Python 3.8 on Ubuntu 18.04.
 
 If you find this work or code is helpful in your research, please cite:
 ```
-@misc{kim2024exploring,
-      title={EPIC: Effective Prompting for Imbalanced-Class Data Synthesis in Tabular Data Classification via Large Language Models}, 
-      author={Jinhee Kim and Taesung Kim and Jaegul Choo},
-      year={2024},
-      eprint={2404.12404},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{
+    kim2024epic,
+    title={EPIC: Effective Prompting for Imbalanced-Class Data Synthesis in Tabular Data Classification via Large Language Models},
+    author={Jinhee Kim and Taesung Kim and Jaegul Choo},
+    booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+    year={2024},
+    url={https://openreview.net/forum?id=d5cKDHCrFJ}
 }
 ```
